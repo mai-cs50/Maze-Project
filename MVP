@@ -1,0 +1,8 @@
+Creating Maze gamed using SDL2
+
+
+Overview:
+creste 2D array to represent the maze and use SDL's graphics library to draw walls represented by rectangles
+implement player movement and rotation using arraws keys
+update player's movement according to input received
+
