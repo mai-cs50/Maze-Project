@@ -187,9 +187,9 @@ int main(int argc, char *argv[]) {
     SDL_Window *window = SDL_CreateWindow("Raycasting", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, SDL_WINDOW_SHOWN);
     SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    wallTexture = loadTexture(renderer, "path_to_wall_texture.bmp"); // Load your wall texture
-    groundTexture = loadTexture(renderer, "path_to_ground_texture.bmp"); // Load your ground texture
-    ceilingTexture = loadTexture(renderer, "path_to_ceiling_texture.bmp"); // Load your ceiling texture
+    wallTexture = loadTexture(renderer, "images/wood.png"); // Load your wall texture
+    groundTexture = loadTexture(renderer, "images/mossystone.png"); // Load your ground texture
+    ceilingTexture = loadTexture(renderer, "images/mossystone.png"); // Load your ceiling texture
 
     if (!wallTexture || !groundTexture || !ceilingTexture) {
         fprintf(stderr, "Failed to load one or more textures.\n");
